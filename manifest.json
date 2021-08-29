@@ -1,0 +1,14 @@
+{
+    "manifest_version":2,
+    "name": "Timeline",
+    "version":"1.0",
+    "description": "See Timeline",
+    "icons":{
+        "192":"android-chrome-192x192.png",
+	"512":"android-chrome-512x512.png"
+    },
+    "browser_action":{
+        "default_icon":"android-chrome-192x192.png",
+        "default_popup":"index.html"
+    }
+}
