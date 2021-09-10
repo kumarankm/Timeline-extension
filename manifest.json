@@ -4,11 +4,10 @@
     "version":"1.0",
     "description": "See Timeline",
     "icons":{
-        "192":"android-chrome-192x192.png",
-	"512":"android-chrome-512x512.png"
+        "128":"logo.png"
     },
     "browser_action":{
-        "default_icon":"android-chrome-192x192.png",
+        "default_icon":"logo.png",
         "default_popup":"index.html"
     }
 }
