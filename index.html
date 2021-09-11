@@ -473,6 +473,41 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        var displayid = document.getElementsByClassName("display-1")
+        var leadid = document.getElementsByClassName("lead")
+        window.i = 1 
+       
+        displayid[0].addEventListener("click", function(){
+            if(i % 2 === 0){
+             leadid[0].setAttribute("style", "display:none")   
+            }
+            else{
+                leadid[0].setAttribute("style", "display:inline-block")
+            }
+            i += 1
+        })
+
+        displayid[1].addEventListener("click", function(){
+            if(i % 2 === 0){
+             leadid[1].setAttribute("style", "display:none")   
+            }
+            else{
+                leadid[1].setAttribute("style", "display:inline-block")
+            }
+            i += 1
+        })
+
+        displayid[2].addEventListener("click", function(){
+            if(i % 2 === 0){
+             leadid[2].setAttribute("style", "display:none")   
+            }
+            else{
+                leadid[2].setAttribute("style", "display:inline-block")
+            }
+            i += 1
+        })
+    </script>
 
 </body>
 
